@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7259D20424DE999F00BE7B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20324DE999F00BE7B6D /* AppDelegate.swift */; };
+		7259D20624DE999F00BE7B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20524DE999F00BE7B6D /* SceneDelegate.swift */; };
+		7259D20824DE999F00BE7B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20724DE999F00BE7B6D /* ViewController.swift */; };
+		7259D20B24DE999F00BE7B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20924DE999F00BE7B6D /* Main.storyboard */; };
+		7259D20D24DE999F00BE7B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20C24DE999F00BE7B6D /* Assets.xcassets */; };
+		7259D21024DE999F00BE7B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20E24DE999F00BE7B6D /* LaunchScreen.storyboard */; };
+		7259D21B24DE999F00BE7B6D /* HavelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */; };
+		72B79E9124DE9BBD0036DA7C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9024DE9BBD0036DA7C /* Realm */; };
+		72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9224DE9BBD0036DA7C /* RealmSwift */; };
+		72B79E9624DE9C1E0036DA7C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9524DE9C1E0036DA7C /* SwiftyJSON */; };
+		72B79E9924DE9CAC0036DA7C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9824DE9CAC0036DA7C /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7259D21724DE999F00BE7B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7259D1F824DE999E00BE7B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7259D1FF24DE999F00BE7B6D;
+			remoteInfo = HavelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7259D20024DE999F00BE7B6D /* HavelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7259D20324DE999F00BE7B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7259D20524DE999F00BE7B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7259D20724DE999F00BE7B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7259D20A24DE999F00BE7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7259D20C24DE999F00BE7B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7259D20F24DE999F00BE7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7259D21124DE999F00BE7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavelAppTests.swift; sourceTree = "<group>"; };
+		7259D21C24DE999F00BE7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7259D1FD24DE999F00BE7B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B79E9924DE9CAC0036DA7C /* Kingfisher in Frameworks */,
+				72B79E9624DE9C1E0036DA7C /* SwiftyJSON in Frameworks */,
+				72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */,
+				72B79E9124DE9BBD0036DA7C /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7259D21324DE999F00BE7B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7259D1F724DE999E00BE7B6D = {
+			isa = PBXGroup;
+			children = (
+				7259D20224DE999F00BE7B6D /* HavelApp */,
+				7259D21924DE999F00BE7B6D /* HavelAppTests */,
+				7259D20124DE999F00BE7B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7259D20124DE999F00BE7B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7259D20024DE999F00BE7B6D /* HavelApp.app */,
+				7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7259D20224DE999F00BE7B6D /* HavelApp */ = {
+			isa = PBXGroup;
+			children = (
+				7259D20324DE999F00BE7B6D /* AppDelegate.swift */,
+				7259D20524DE999F00BE7B6D /* SceneDelegate.swift */,
+				7259D20724DE999F00BE7B6D /* ViewController.swift */,
+				7259D20924DE999F00BE7B6D /* Main.storyboard */,
+				7259D20C24DE999F00BE7B6D /* Assets.xcassets */,
+				7259D20E24DE999F00BE7B6D /* LaunchScreen.storyboard */,
+				7259D21124DE999F00BE7B6D /* Info.plist */,
+			);
+			path = HavelApp;
+			sourceTree = "<group>";
+		};
+		7259D21924DE999F00BE7B6D /* HavelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */,
+				7259D21C24DE999F00BE7B6D /* Info.plist */,
+			);
+			path = HavelAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7259D1FF24DE999F00BE7B6D /* HavelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259D21F24DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelApp" */;
+			buildPhases = (
+				7259D1FC24DE999F00BE7B6D /* Sources */,
+				7259D1FD24DE999F00BE7B6D /* Frameworks */,
+				7259D1FE24DE999F00BE7B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HavelApp;
+			packageProductDependencies = (
+				72B79E9024DE9BBD0036DA7C /* Realm */,
+				72B79E9224DE9BBD0036DA7C /* RealmSwift */,
+				72B79E9524DE9C1E0036DA7C /* SwiftyJSON */,
+				72B79E9824DE9CAC0036DA7C /* Kingfisher */,
+			);
+			productName = HavelApp;
+			productReference = 7259D20024DE999F00BE7B6D /* HavelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7259D21524DE999F00BE7B6D /* HavelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7259D22224DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelAppTests" */;
+			buildPhases = (
+				7259D21224DE999F00BE7B6D /* Sources */,
+				7259D21324DE999F00BE7B6D /* Frameworks */,
+				7259D21424DE999F00BE7B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7259D21824DE999F00BE7B6D /* PBXTargetDependency */,
+			);
+			name = HavelAppTests;
+			productName = HavelAppTests;
+			productReference = 7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7259D1F824DE999E00BE7B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Havelio Henar";
+				TargetAttributes = {
+					7259D1FF24DE999F00BE7B6D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					7259D21524DE999F00BE7B6D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 7259D1FF24DE999F00BE7B6D;
+					};
+				};
+			};
+			buildConfigurationList = 7259D1FB24DE999E00BE7B6D /* Build configuration list for PBXProject "HavelApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7259D1F724DE999E00BE7B6D;
+			packageReferences = (
+				72B79E8F24DE9BBD0036DA7C /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				72B79E9424DE9C1E0036DA7C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				72B79E9724DE9CAC0036DA7C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7259D20124DE999F00BE7B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7259D1FF24DE999F00BE7B6D /* HavelApp */,
+				7259D21524DE999F00BE7B6D /* HavelAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7259D1FE24DE999F00BE7B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259D21024DE999F00BE7B6D /* LaunchScreen.storyboard in Resources */,
+				7259D20D24DE999F00BE7B6D /* Assets.xcassets in Resources */,
+				7259D20B24DE999F00BE7B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7259D21424DE999F00BE7B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7259D1FC24DE999F00BE7B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259D20824DE999F00BE7B6D /* ViewController.swift in Sources */,
+				7259D20424DE999F00BE7B6D /* AppDelegate.swift in Sources */,
+				7259D20624DE999F00BE7B6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7259D21224DE999F00BE7B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7259D21B24DE999F00BE7B6D /* HavelAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7259D21824DE999F00BE7B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7259D1FF24DE999F00BE7B6D /* HavelApp */;
+			targetProxy = 7259D21724DE999F00BE7B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7259D20924DE999F00BE7B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7259D20A24DE999F00BE7B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7259D20E24DE999F00BE7B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7259D20F24DE999F00BE7B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7259D21D24DE999F00BE7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7259D21E24DE999F00BE7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7259D22024DE999F00BE7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADM9BLKC63;
+				INFOPLIST_FILE = HavelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7259D22124DE999F00BE7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADM9BLKC63;
+				INFOPLIST_FILE = HavelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7259D22324DE999F00BE7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADM9BLKC63;
+				INFOPLIST_FILE = HavelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavelApp.app/HavelApp";
+			};
+			name = Debug;
+		};
+		7259D22424DE999F00BE7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADM9BLKC63;
+				INFOPLIST_FILE = HavelAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavelApp.app/HavelApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7259D1FB24DE999E00BE7B6D /* Build configuration list for PBXProject "HavelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259D21D24DE999F00BE7B6D /* Debug */,
+				7259D21E24DE999F00BE7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259D21F24DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259D22024DE999F00BE7B6D /* Debug */,
+				7259D22124DE999F00BE7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7259D22224DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7259D22324DE999F00BE7B6D /* Debug */,
+				7259D22424DE999F00BE7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72B79E8F24DE9BBD0036DA7C /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = exactVersion;
+				version = 5.3.3;
+			};
+		};
+		72B79E9424DE9C1E0036DA7C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		72B79E9724DE9CAC0036DA7C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 5.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72B79E9024DE9BBD0036DA7C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B79E8F24DE9BBD0036DA7C /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		72B79E9224DE9BBD0036DA7C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B79E8F24DE9BBD0036DA7C /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		72B79E9524DE9C1E0036DA7C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B79E9424DE9C1E0036DA7C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		72B79E9824DE9CAC0036DA7C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B79E9724DE9CAC0036DA7C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7259D1F824DE999E00BE7B6D /* Project object */;
+}
