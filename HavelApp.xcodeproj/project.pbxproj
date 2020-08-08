@@ -18,6 +18,7 @@
 		72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9224DE9BBD0036DA7C /* RealmSwift */; };
 		72B79E9624DE9C1E0036DA7C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9524DE9C1E0036DA7C /* SwiftyJSON */; };
 		72B79E9924DE9CAC0036DA7C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9824DE9CAC0036DA7C /* Kingfisher */; };
+		72B79E9C24DE9F180036DA7C /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9B24DE9F180036DA7C /* Just */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			files = (
 				72B79E9924DE9CAC0036DA7C /* Kingfisher in Frameworks */,
 				72B79E9624DE9C1E0036DA7C /* SwiftyJSON in Frameworks */,
+				72B79E9C24DE9F180036DA7C /* Just in Frameworks */,
 				72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */,
 				72B79E9124DE9BBD0036DA7C /* Realm in Frameworks */,
 			);
@@ -128,6 +130,7 @@
 				72B79E9224DE9BBD0036DA7C /* RealmSwift */,
 				72B79E9524DE9C1E0036DA7C /* SwiftyJSON */,
 				72B79E9824DE9CAC0036DA7C /* Kingfisher */,
+				72B79E9B24DE9F180036DA7C /* Just */,
 			);
 			productName = HavelApp;
 			productReference = 7259D20024DE999F00BE7B6D /* HavelApp.app */;
@@ -183,6 +186,7 @@
 				72B79E8F24DE9BBD0036DA7C /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 				72B79E9424DE9C1E0036DA7C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				72B79E9724DE9CAC0036DA7C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				72B79E9A24DE9F180036DA7C /* XCRemoteSwiftPackageReference "Just" */,
 			);
 			productRefGroup = 7259D20124DE999F00BE7B6D /* Products */;
 			projectDirPath = "";
@@ -516,6 +520,14 @@
 				version = 5.14.1;
 			};
 		};
+		72B79E9A24DE9F180036DA7C /* XCRemoteSwiftPackageReference "Just" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dduan/Just";
+			requirement = {
+				kind = exactVersion;
+				version = 0.8.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -538,6 +550,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 72B79E9724DE9CAC0036DA7C /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		72B79E9B24DE9F180036DA7C /* Just */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72B79E9A24DE9F180036DA7C /* XCRemoteSwiftPackageReference "Just" */;
+			productName = Just;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
