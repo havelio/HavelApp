@@ -7,31 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7211425824DFAE8300426F12 /* CollectionViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211425724DFAE8300426F12 /* CollectionViewUtils.swift */; };
+		7211425B24DFB0DD00426F12 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7211425A24DFB0DD00426F12 /* CollectionViewCell.swift */; };
+		7232038B24DEC2D9001481FC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232038A24DEC2D9001481FC /* UIView.swift */; };
+		7232038D24DEC311001481FC /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232038C24DEC311001481FC /* UIScrollView.swift */; };
+		7232038F24DEC346001481FC /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232038E24DEC346001481FC /* UIViewController.swift */; };
+		7232039124DEC37E001481FC /* HTTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039024DEC37E001481FC /* HTTPResult.swift */; };
+		7232039324DEC3ED001481FC /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039224DEC3ED001481FC /* UICollectionView.swift */; };
+		7232039524DEC427001481FC /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039424DEC427001481FC /* Date.swift */; };
+		7232039A24DEC46C001481FC /* Biographies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039924DEC46C001481FC /* Biographies.swift */; };
+		7232039C24DEC476001481FC /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039B24DEC476001481FC /* Tags.swift */; };
+		7232039F24DEC541001481FC /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232039E24DEC541001481FC /* Sync.swift */; };
+		723203A824DECF5D001481FC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723203A724DECF5D001481FC /* CollectionViewController.swift */; };
+		723203AA24DED09A001481FC /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723203A924DED09A001481FC /* ImageView.swift */; };
+		723203AC24DED7EC001481FC /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723203AB24DED7EC001481FC /* ShadowView.swift */; };
+		723203AE24DEE021001481FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723203AD24DEE021001481FC /* Constant.swift */; };
 		7259D20424DE999F00BE7B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20324DE999F00BE7B6D /* AppDelegate.swift */; };
 		7259D20624DE999F00BE7B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20524DE999F00BE7B6D /* SceneDelegate.swift */; };
 		7259D20824DE999F00BE7B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D20724DE999F00BE7B6D /* ViewController.swift */; };
 		7259D20B24DE999F00BE7B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20924DE999F00BE7B6D /* Main.storyboard */; };
 		7259D20D24DE999F00BE7B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20C24DE999F00BE7B6D /* Assets.xcassets */; };
 		7259D21024DE999F00BE7B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7259D20E24DE999F00BE7B6D /* LaunchScreen.storyboard */; };
-		7259D21B24DE999F00BE7B6D /* HavelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */; };
 		72B79E9124DE9BBD0036DA7C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9024DE9BBD0036DA7C /* Realm */; };
 		72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9224DE9BBD0036DA7C /* RealmSwift */; };
 		72B79E9624DE9C1E0036DA7C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9524DE9C1E0036DA7C /* SwiftyJSON */; };
 		72B79E9924DE9CAC0036DA7C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9824DE9CAC0036DA7C /* Kingfisher */; };
 		72B79E9C24DE9F180036DA7C /* Just in Frameworks */ = {isa = PBXBuildFile; productRef = 72B79E9B24DE9F180036DA7C /* Just */; };
+		B073AB1A23293824892D7951 /* Pods_HavelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A694C8380D1AAFAC68E99C3 /* Pods_HavelApp.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7259D21724DE999F00BE7B6D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7259D1F824DE999E00BE7B6D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7259D1FF24DE999F00BE7B6D;
-			remoteInfo = HavelApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		62F0C29A962E52B59F33E452 /* Pods-HavelApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavelApp.release.xcconfig"; path = "Target Support Files/Pods-HavelApp/Pods-HavelApp.release.xcconfig"; sourceTree = "<group>"; };
+		7211425724DFAE8300426F12 /* CollectionViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUtils.swift; sourceTree = "<group>"; };
+		7211425A24DFB0DD00426F12 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		7232038A24DEC2D9001481FC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7232038C24DEC311001481FC /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		7232038E24DEC346001481FC /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		7232039024DEC37E001481FC /* HTTPResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResult.swift; sourceTree = "<group>"; };
+		7232039224DEC3ED001481FC /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		7232039424DEC427001481FC /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		7232039924DEC46C001481FC /* Biographies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biographies.swift; sourceTree = "<group>"; };
+		7232039B24DEC476001481FC /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		7232039E24DEC541001481FC /* Sync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
+		723203A724DECF5D001481FC /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		723203A924DED09A001481FC /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		723203AB24DED7EC001481FC /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		723203AD24DEE021001481FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		7259D20024DE999F00BE7B6D /* HavelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HavelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7259D20324DE999F00BE7B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7259D20524DE999F00BE7B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +61,8 @@
 		7259D20C24DE999F00BE7B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7259D20F24DE999F00BE7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7259D21124DE999F00BE7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavelAppTests.swift; sourceTree = "<group>"; };
-		7259D21C24DE999F00BE7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A694C8380D1AAFAC68E99C3 /* Pods_HavelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9403599C5CE0F3B13DA06BE5 /* Pods-HavelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavelApp.debug.xcconfig"; path = "Target Support Files/Pods-HavelApp/Pods-HavelApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,25 +75,62 @@
 				72B79E9C24DE9F180036DA7C /* Just in Frameworks */,
 				72B79E9324DE9BBD0036DA7C /* RealmSwift in Frameworks */,
 				72B79E9124DE9BBD0036DA7C /* Realm in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7259D21324DE999F00BE7B6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				B073AB1A23293824892D7951 /* Pods_HavelApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7211425924DFB0D100426F12 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7211425A24DFB0DD00426F12 /* CollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7232038924DEC29E001481FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7232038A24DEC2D9001481FC /* UIView.swift */,
+				7232038C24DEC311001481FC /* UIScrollView.swift */,
+				7232038E24DEC346001481FC /* UIViewController.swift */,
+				7232039024DEC37E001481FC /* HTTPResult.swift */,
+				7232039224DEC3ED001481FC /* UICollectionView.swift */,
+				7232039424DEC427001481FC /* Date.swift */,
+				723203A924DED09A001481FC /* ImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7232039624DEC438001481FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7232039924DEC46C001481FC /* Biographies.swift */,
+				7232039B24DEC476001481FC /* Tags.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7232039D24DEC4EB001481FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7232039E24DEC541001481FC /* Sync.swift */,
+				723203AB24DED7EC001481FC /* ShadowView.swift */,
+				723203AD24DEE021001481FC /* Constant.swift */,
+				7211425724DFAE8300426F12 /* CollectionViewUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		7259D1F724DE999E00BE7B6D = {
 			isa = PBXGroup;
 			children = (
 				7259D20224DE999F00BE7B6D /* HavelApp */,
-				7259D21924DE999F00BE7B6D /* HavelAppTests */,
 				7259D20124DE999F00BE7B6D /* Products */,
+				DC01B37A691B1E1F4501EEC1 /* Pods */,
+				A708B23BBB81F10B7978F267 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				7259D20024DE999F00BE7B6D /* HavelApp.app */,
-				7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +145,14 @@
 		7259D20224DE999F00BE7B6D /* HavelApp */ = {
 			isa = PBXGroup;
 			children = (
+				7211425924DFB0D100426F12 /* Cell */,
+				7232039D24DEC4EB001481FC /* Utils */,
+				7232038924DEC29E001481FC /* Extensions */,
+				7232039624DEC438001481FC /* Models */,
 				7259D20324DE999F00BE7B6D /* AppDelegate.swift */,
 				7259D20524DE999F00BE7B6D /* SceneDelegate.swift */,
 				7259D20724DE999F00BE7B6D /* ViewController.swift */,
+				723203A724DECF5D001481FC /* CollectionViewController.swift */,
 				7259D20924DE999F00BE7B6D /* Main.storyboard */,
 				7259D20C24DE999F00BE7B6D /* Assets.xcassets */,
 				7259D20E24DE999F00BE7B6D /* LaunchScreen.storyboard */,
@@ -100,13 +161,21 @@
 			path = HavelApp;
 			sourceTree = "<group>";
 		};
-		7259D21924DE999F00BE7B6D /* HavelAppTests */ = {
+		A708B23BBB81F10B7978F267 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7259D21A24DE999F00BE7B6D /* HavelAppTests.swift */,
-				7259D21C24DE999F00BE7B6D /* Info.plist */,
+				8A694C8380D1AAFAC68E99C3 /* Pods_HavelApp.framework */,
 			);
-			path = HavelAppTests;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC01B37A691B1E1F4501EEC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9403599C5CE0F3B13DA06BE5 /* Pods-HavelApp.debug.xcconfig */,
+				62F0C29A962E52B59F33E452 /* Pods-HavelApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7259D21F24DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelApp" */;
 			buildPhases = (
+				0D92F36F24A5ABF32A18A353 /* [CP] Check Pods Manifest.lock */,
 				7259D1FC24DE999F00BE7B6D /* Sources */,
 				7259D1FD24DE999F00BE7B6D /* Frameworks */,
 				7259D1FE24DE999F00BE7B6D /* Resources */,
+				929BC952D95448BD28076BE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,24 +207,6 @@
 			productReference = 7259D20024DE999F00BE7B6D /* HavelApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7259D21524DE999F00BE7B6D /* HavelAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7259D22224DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelAppTests" */;
-			buildPhases = (
-				7259D21224DE999F00BE7B6D /* Sources */,
-				7259D21324DE999F00BE7B6D /* Frameworks */,
-				7259D21424DE999F00BE7B6D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7259D21824DE999F00BE7B6D /* PBXTargetDependency */,
-			);
-			name = HavelAppTests;
-			productName = HavelAppTests;
-			productReference = 7259D21624DE999F00BE7B6D /* HavelAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,10 +219,6 @@
 				TargetAttributes = {
 					7259D1FF24DE999F00BE7B6D = {
 						CreatedOnToolsVersion = 11.5;
-					};
-					7259D21524DE999F00BE7B6D = {
-						CreatedOnToolsVersion = 11.5;
-						TestTargetID = 7259D1FF24DE999F00BE7B6D;
 					};
 				};
 			};
@@ -193,7 +242,6 @@
 			projectRoot = "";
 			targets = (
 				7259D1FF24DE999F00BE7B6D /* HavelApp */,
-				7259D21524DE999F00BE7B6D /* HavelAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -209,43 +257,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7259D21424DE999F00BE7B6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D92F36F24A5ABF32A18A353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavelApp-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		929BC952D95448BD28076BE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HavelApp/Pods-HavelApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HavelApp/Pods-HavelApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HavelApp/Pods-HavelApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7259D1FC24DE999F00BE7B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723203AA24DED09A001481FC /* ImageView.swift in Sources */,
+				723203AE24DEE021001481FC /* Constant.swift in Sources */,
+				7211425B24DFB0DD00426F12 /* CollectionViewCell.swift in Sources */,
+				7232038D24DEC311001481FC /* UIScrollView.swift in Sources */,
+				7232038B24DEC2D9001481FC /* UIView.swift in Sources */,
+				723203A824DECF5D001481FC /* CollectionViewController.swift in Sources */,
+				7232039F24DEC541001481FC /* Sync.swift in Sources */,
+				723203AC24DED7EC001481FC /* ShadowView.swift in Sources */,
+				7232038F24DEC346001481FC /* UIViewController.swift in Sources */,
+				7211425824DFAE8300426F12 /* CollectionViewUtils.swift in Sources */,
 				7259D20824DE999F00BE7B6D /* ViewController.swift in Sources */,
+				7232039C24DEC476001481FC /* Tags.swift in Sources */,
+				7232039124DEC37E001481FC /* HTTPResult.swift in Sources */,
 				7259D20424DE999F00BE7B6D /* AppDelegate.swift in Sources */,
+				7232039324DEC3ED001481FC /* UICollectionView.swift in Sources */,
+				7232039524DEC427001481FC /* Date.swift in Sources */,
+				7232039A24DEC46C001481FC /* Biographies.swift in Sources */,
 				7259D20624DE999F00BE7B6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7259D21224DE999F00BE7B6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7259D21B24DE999F00BE7B6D /* HavelAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7259D21824DE999F00BE7B6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7259D1FF24DE999F00BE7B6D /* HavelApp */;
-			targetProxy = 7259D21724DE999F00BE7B6D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7259D20924DE999F00BE7B6D /* Main.storyboard */ = {
@@ -383,6 +465,7 @@
 		};
 		7259D22024DE999F00BE7B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9403599C5CE0F3B13DA06BE5 /* Pods-HavelApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -402,6 +485,7 @@
 		};
 		7259D22124DE999F00BE7B6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F0C29A962E52B59F33E452 /* Pods-HavelApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -416,50 +500,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		7259D22324DE999F00BE7B6D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ADM9BLKC63;
-				INFOPLIST_FILE = HavelAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavelApp.app/HavelApp";
-			};
-			name = Debug;
-		};
-		7259D22424DE999F00BE7B6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ADM9BLKC63;
-				INFOPLIST_FILE = HavelAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Havelio-Henar.HavelAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HavelApp.app/HavelApp";
 			};
 			name = Release;
 		};
@@ -480,15 +520,6 @@
 			buildConfigurations = (
 				7259D22024DE999F00BE7B6D /* Debug */,
 				7259D22124DE999F00BE7B6D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7259D22224DE999F00BE7B6D /* Build configuration list for PBXNativeTarget "HavelAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7259D22324DE999F00BE7B6D /* Debug */,
-				7259D22424DE999F00BE7B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
